@@ -4,9 +4,9 @@ import './Product.css';
 const Product = (props) => (
     <div className='Product'>
         <p>{props.name}: {props.cost} $</p>
-        <button onClick={props.deleted} className='deleteButton'>Delete</button>    
-        <button onClick={props.added} className='Button'>+</button>    
-        <button onClick={props.removed} className='Button'>-</button>
+        <button onClick={props.deleted} >Delete</button>    
+        <button onClick={props.added} >+</button>    
+        <button onClick={props.removed} >-</button>
         <p>count: {props.count}</p>    
     </div >
 )
