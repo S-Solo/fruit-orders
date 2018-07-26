@@ -1,0 +1,33 @@
+.Header {
+    background: linear-gradient(gray, lightgray);
+    align-items: center;
+}
+
+.Header img {
+    margin-top: 5px;
+    width: 100px;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 10px 0 10px 0; */
+}
+
+.Nav li {
+    list-style-type: none;
+    align-content: center;
+}
+
+.Nav a {
+    background-color: white;
+    margin-top: 30px;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 100px 10px 100px;
+}
+
+.Nav a:hover {
+    background-color: lightgreen;
+}

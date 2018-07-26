@@ -1,0 +1,17 @@
+.Product {
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 1px 1px #ccc;
+}
+
+.Product button {
+    margin: 0 5px 0 5px;
+    padding: 4px;
+    width: 60px;
+    border-radius: 15px;
+}
+
+.Product button:hover {
+    background-color: white;
+}

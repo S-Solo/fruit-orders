@@ -1,0 +1,10 @@
+.Products {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    box-shadow: 2px 2px #ccc;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
